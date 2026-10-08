@@ -4,9 +4,9 @@ const { pathfinder, Movements, goals } = require('mineflayer-pathfinder');
 // Configuration - Edit these values for your server
 const config = {
   server: {
-    host: 'localhost', // Change to your server IP
+    host: 'ruinsmp2.mcsh.io', // Change to your server IP
     port: 25565,
-    version: '1.20.4' // Change to your server version
+    version: '1.20.11' // Change to your server version
   },
   bot: {
     username: 'AFKBot', // Change to your desired bot name
@@ -28,7 +28,7 @@ const config = {
       enabled: true,
       coordinates: {
         x: 0, // Change to your desired AFK coordinates
-        y: 64,
+        y: 69,
         z: 0
       }
     },
